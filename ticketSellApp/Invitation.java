@@ -1,3 +1,5 @@
+package ticketSellApp;
+
 import java.time.LocalDateTime;
 
 public class Invitation {

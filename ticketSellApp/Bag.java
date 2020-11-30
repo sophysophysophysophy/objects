@@ -1,8 +1,10 @@
+package ticketSellApp;
+
 public class Bag {
 
     private Long amount;
     private Invitation invitation;
-    private Ticket ticket;
+    private tic.Ticket ticket;
 
     public Bag(Long amount) {
         this(null, amount);
@@ -22,7 +24,7 @@ public class Bag {
         return ticket != null;
     }
 
-    public void setTicket(Ticket ticket) {
+    public void setTicket(tic.Ticket ticket) {
         this.ticket = ticket;
     }
 

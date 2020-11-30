@@ -1,3 +1,5 @@
+package ticketSellApp;
+
 public class Theater {
     private TicketSeller ticketSeller;
 
@@ -6,8 +8,6 @@ public class Theater {
     }
 
     public void enter(Audience audience) {
-
-
 //        자율성을 위하여 Ticketoffice에 접근하는 코드를 ticketSeller 내부로 옮김
         if(audience.getBag().hasInvitation()) {
             Ticket ticket = ticketSeller.getTicketOffice().getTicket();

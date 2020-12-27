@@ -4,7 +4,7 @@ public class Bag {
 
     private Long amount;
     private Invitation invitation;
-    private tic.Ticket ticket;
+    private Ticket ticket;
 
     public Bag(Long amount) {
         this(null, amount);
@@ -24,7 +24,7 @@ public class Bag {
         return ticket != null;
     }
 
-    public void setTicket(tic.Ticket ticket) {
+    public void setTicket(Ticket ticket) {
         this.ticket = ticket;
     }
 
